@@ -28,7 +28,10 @@ if ($shouldRefreshCache) {
         'saved' => $now,
     ];
 
-    $workflow->cache()->writeJson($data);
+    if (! empty($data->servers) || ! empty($data->projects)) {
+        // Only cache non-empty responses
+        $workflow->cache()->writeJson($data);
+    }
 } else {
     $workflow->logger()->info('Using cached data...');
 }
