@@ -1,0 +1,14 @@
+{
+    "name": "mattstein/alfred-coolify-workflow",
+    "type": "project",
+    "description": "Quickly jump to Coolify servers and projects.",
+    "keywords": ["alfred", "coolify"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "joetannenbaum/alfred-workflow": "^1.1",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
