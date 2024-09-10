@@ -45,6 +45,7 @@ $projects = $data->projects ?? [];
 foreach ($projects as $project) {
     $workflow->item()
         ->title($project->name)
+        ->subtitle($project->description ?? '')
         ->arg(buildDashboardUrl($workflow, 'project/' . $project->uuid));
 }
 
