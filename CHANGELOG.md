@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.3] - 2024-09-10
+
+### Added
+
+- Project items now display their descriptions when available. (Coolify >= [beta.332](https://github.com/coollabsio/coolify/releases/tag/v4.0.0-beta.332)).
+
 ## [0.0.2] - 2024-09-09
 
 ### Changed
